@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-sass',
+    `gatsby-plugin-material-ui`
+  ],
+  siteMetadata: {
+    title: 'The Story of Beep',
+  },
 }
